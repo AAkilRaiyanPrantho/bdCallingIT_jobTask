@@ -1,3 +1,8 @@
+import bkash from '../../../Event host/Resourcess/image 9.png'
+import nagad from '../../../Event host/Resourcess/Group 40.png'
+import rocket from '../../../Event host/Resourcess/dutch-bangla-rocket-logo-B4D1CC458D-seeklogo 1.png'
+
+
 const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-[#591BFF] to-[#FFFFFF]">
@@ -64,7 +69,7 @@ const Footer = () => {
       </footer>
       <footer className="footer flex justify-between px-10 py-4 border-t text-white border-base-300 w-[1360px] mx-auto">
         <aside className="items-center grid-flow-col">
-          <p>Pay With</p>
+          <p>Pay With </p> <img src={bkash} className='w-[50px] h-[25px]'></img> <img src={nagad} className='w-[30px] h-[30px]'></img> <img src='https://upload.wikimedia.org/wikipedia/commons/e/e9/Rocket_ddbl.png' className='w-[50px] h-[50px]'></img>
         </aside>
         <p className="mr-28">©2023 TickHost & UVTR. All right reserved</p>
       </footer>
