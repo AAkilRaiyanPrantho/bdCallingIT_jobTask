@@ -8,7 +8,6 @@ import Ticket from "../../Components/Ticket/Ticket";
 const Home = () => {
     return (
         <div>
-            <p>This is Home</p>
             <Banner></Banner>
             <Events></Events>
             <HostEventBanner></HostEventBanner>
