@@ -1,37 +1,30 @@
 const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-[#591BFF] to-[#FFFFFF]">
-      <footer className="footer p-10 text-base-content w-[1160px] mx-auto">
+      <footer className="footer p-10 w-[1360px] mx-auto text-white">
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <p className="text-3xl">
+            Event<span className="font-semibold">Host</span>
+          </p>
+          <p>
+            IDEA Project, ICT Tower (0th Floor),
+            <br /> Plot: E-14X, Agargaon, Dhaka - 1207 <br /> 02222-222222,
+            01111111111
+          </p>
         </nav>
         <nav>
-          <h6 className="footer-title">Company</h6>
+          <a className="link link-hover">Home</a>
+          <a className="link link-hover">Events</a>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </nav>
-      </footer>
-      <footer className="footer px-10 py-4 border-t text-base-content border-base-300 w-[1160px] mx-auto">
-        <aside className="items-center grid-flow-col">
-          
-          <p>
-            EventHost Industries Ltd. <br />
-            Providing reliable tech since 1992
-          </p>
-        </aside>
-        <nav className="md:place-self-center md:justify-self-end">
+        <nav>
+          <p>Follow Us </p>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
@@ -68,6 +61,12 @@ const Footer = () => {
             </a>
           </div>
         </nav>
+      </footer>
+      <footer className="footer flex justify-between px-10 py-4 border-t text-white border-base-300 w-[1360px] mx-auto">
+        <aside className="items-center grid-flow-col">
+          <p>Pay With</p>
+        </aside>
+        <p className="mr-28">©2023 TickHost & UVTR. All right reserved</p>
       </footer>
     </div>
   );
