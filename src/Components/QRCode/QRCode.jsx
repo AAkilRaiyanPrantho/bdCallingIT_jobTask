@@ -20,7 +20,7 @@ const QRCode = () => {
               <img src={qr1}></img>
             </div>
             <h2 className="card-title">One Click</h2>
-            <p>QR verification System</p>
+            <p>QR Verification System</p>
           </div>
         </div>
         {/* card 2 */}

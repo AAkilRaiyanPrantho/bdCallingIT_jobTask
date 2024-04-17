@@ -1,11 +1,11 @@
 import bkash from '../../../Event host/Resourcess/image 9.png'
 import nagad from '../../../Event host/Resourcess/Group 40.png'
-import rocket from '../../../Event host/Resourcess/dutch-bangla-rocket-logo-B4D1CC458D-seeklogo 1.png'
+
 
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-[#591BFF] to-[#FFFFFF]">
+    <div className="bg-gradient-to-br from-[#591BFF] to-[#FFFFFF]">
       <footer className="footer p-10 w-[1360px] mx-auto text-white">
         <nav>
           <p className="text-3xl">
